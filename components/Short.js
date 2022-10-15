@@ -8,11 +8,7 @@ const Short = () => {
 
   const [url, setUrl] = useState('')
   const [error, setError] = useState(false)
-  const [shortly, setShortly] = useState({
-    shorturl: 'text',
-    longurl: 'https://www.google.com/',
-    code: 'text',
-  })
+  const [shortly, setShortly] = useState(null)
 
   const shortLink = async () => {
     const urlPattern = /(?:https?):\/\/(\w+:?\w*)?(\S+)(:\d+)?(\/|\/([\w#!:.?+=&%!\-\/]))?/;
