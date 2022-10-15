@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/abouhilalbadr/shortly)
-- Live Site URL: [Add live site URL here](https://new-shortly.vercel.app)
+- Solution URL: [https://github.com/abouhilalbadr/shortly](https://github.com/abouhilalbadr/shortly)
+- Live Site URL: [https://new-shortly.vercel.app](https://new-shortly.vercel.app)
 
 ## My process
 
