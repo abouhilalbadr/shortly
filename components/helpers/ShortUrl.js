@@ -7,11 +7,11 @@ const ShortUrl = ({ shortly }) => {
     setTimeout(() => setText("Copy"), 1500)
   }
   return (
-    <div className="bg-white py-6 px-8 rounded-xl relative -top-16 flex items-center justify-between">
+    <div className="bg-white py-6 px-8 rounded-xl relative -top-16 flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-4">
       <a target="_blank" rel="noreferrer" href={shortly.longurl}>
         {shortly.longurl}
       </a>
-      <div className="flex items-center gap-8">
+      <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
         <a target="_blank" rel="noreferrer" className="text-primary-cyan" href={shortly.shorturl}>
           {shortly.shorturl}
         </a>

@@ -11,7 +11,7 @@ const icons = {
 
 const Card = ({ card, index }) => {
   return (
-    <div className='bg-white rounded-lg p-8 relative' style={{ marginTop: `${(index + 1) * 60}px` }}>
+    <div className='bg-white rounded-lg p-8 relative mt-custom' style={{ marginTop: `${(index + 1) * 60}px` }}>
       <div className="absolute left-8 -top-12 bg-primary-violet h-24 w-24 rounded-full flex justify-center items-center">
         <Image src={icons[card.icon]} alt={card.title} />
       </div>

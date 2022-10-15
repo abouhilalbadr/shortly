@@ -21,7 +21,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <div className="flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8">
           <a className="font-bold opacity-50 hover:opacity-100 transition-all" href="#">Login</a>
           <a className="font-bold rounded-full px-6 py-2 bg-primary-cyan hover:bg-primary-cyan/50 text-white transition-all" href="#">Sign Up</a>
         </div>
